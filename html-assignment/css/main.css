@@ -20,7 +20,7 @@ header, footer {
 }
 
 .hobbies-list li:nth-child(odd) {
-    background-color: #e8dcca;
+    background: #e8dcca;
 }
 
 .nav a {
