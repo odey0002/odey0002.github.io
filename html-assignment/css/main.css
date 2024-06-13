@@ -19,9 +19,8 @@ header, footer {
     list-style-type: square;
 }
 
-.hobbies-list li:nth-child(odd) 
-{
-    background-color: #f0f0f0;
+.hobbies-list li:nth-child(odd) {
+    background-color: #e8dcca;
 }
 
 .nav a {
