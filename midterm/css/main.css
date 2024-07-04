@@ -1,29 +1,25 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #253c2c;
+    background-color: #7d9c72;
 }
 
 header {
     position: relative;
     text-align: center;
-    color: #b6cdc7;
-    width: 100%;
-    height: 400px;
-    background: url('images/samoyed-wide.jpg') no-repeat center center;
+    color: #fff;
+    width: 1000px;
+    margin: 0 auto;
+    background: url('images/samoyed-wide.jpg') no-repeat;
     background-size: cover;
-
-
+    position: relative;
 }
 
 #Samoyed {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 50%);
-    padding: 10px;
-    border-radius: 5px;
+    top: 35%;
+    left: 20%;
     z-index: 1;
-
+    font-size: 4rem;
 }
 
 .wrapper {
@@ -37,7 +33,6 @@ nav li{
     display: inline-block;
     width: 19%;
     text-align: center;
-
 }
 nav ul{
     list-style-type: none;
@@ -52,16 +47,52 @@ nav a {
 .wrapper > main article img{
     float: left;
 }
-
-footer {
-    clear: both;
     
-
-}clearfix::after {
+clearfix::after {
     content: '';
     display: block;
     clear: both;
 }
+
+.article-image {
+    margin: 0 15px 20px 0;
+    width: 150px;
+    height: auto;
+    
+}
+
+textarea {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="radio"] {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+section ul {
+    padding: 0 0 0 15px;
+}
+
+form {
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    clear: both;
+    text-align: right;
+}
+
 
 
 
