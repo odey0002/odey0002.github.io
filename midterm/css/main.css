@@ -1,23 +1,67 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #556e68;
+    background-color: #253c2c;
 }
 
 header {
     position: relative;
     text-align: center;
     color: #b6cdc7;
+    width: 100%;
+    height: 400px;
+    background: url('images/samoyed-wide.jpg') no-repeat center center;
+    background-size: cover;
+
+
 }
 
-header-image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    display: block;
+#Samoyed {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+
 }
 
 .wrapper {
-    max-width: 200px;
+    background-color: #e5e6e1;
+    width: 1000px;
     margin: 0 auto;
     padding: 20px;
 }
+
+nav li{
+    display: inline-block;
+    width: 19%;
+    text-align: center;
+
+}
+nav ul{
+    list-style-type: none;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+.wrapper > main article img{
+    float: left;
+}
+
+footer {
+    clear: both;
+    
+
+}clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
