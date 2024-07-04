@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #556e68;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: #b6cdc7;
+}
+
+header-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.wrapper {
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+}
