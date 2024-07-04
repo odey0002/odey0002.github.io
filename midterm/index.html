@@ -6,7 +6,65 @@
     <title>Odey0002 midterm</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
-    
-</body>
+<body> <!-- Header with image and heading -->
+    <div>
+        <header>
+            <h1 id="Samoyed">Smiling Samoyed</h1>
+            <img src="images/samoyed-wide.jpg" alt="image of samoyed" class="header-image">
+            <nav> <!-- Nav bar with unordered lists -->
+                <ul>
+                    <li><a href="#"></a>HOME</li>
+                    <li><a href="#"></a>STORY</li>
+                    <li><a href="#"></a>CONTACT</li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+             <article> <!-- Article with image -->
+               <h2>Life of a Samoyed</h2>
+               <img src="images/samoyed.jpg" alt="samoyed picture">
+               <p>The Samoyed is a substantial but graceful dog standing anywhere from 19 to a bit over 23 inches at the shoulder. Powerful, tireless, with a thick all-white coat impervious to cold, Sammies are perfectly beautiful but highly functional. Even their most delightful feature, a perpetual smile, has a practical function: The upturned corners of the mouth keep Sammies from drooling, preventing icicles from forming on the face.  A Sammy sentenced to solitary confinement in the yard is a miserable and destructive creature. These are smart, social, mischievous dogs who demand love and attention. Sammies need structure in training. Teach them what's expected of them early, and practice it with them often.</p>
+             </article>
+             <section> <!-- Section with unordered lists -->
+                <h2>Facts About Samoyed</h2>
+                    <ul>
+                        <li>Samoyeds "Blow" or shed their undercoat twice a year.</li>
+                        <li>Samoyeds do well when given tasks to complete.</li>
+                        <li>Samoyeds thrive on close human contact.</li>
+                        <li>Samoyeds are energetic and need sufficient exercise.</li>
+                    </ul>
+             </section>
+             <section> <!-- Form with labels, radio buttons and submit button -->
+                <h2>Contact to learn more</h2>
+                <form action="new.html" method="get">
+                    <div>
+                        <label for="name">Your Name</label>
+                        <input id="name" type="text" name="name">
+                    </div>
+                    <div>
+                        <label for="email">Your Email</label>
+                        <input id="email" type="email" name="email"> 
+                    </div>
+                    <div>
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="msg"></textarea>
+                    </div>
+                    <label>Would you like to own a Samoyed?</label>
+                    <div>
+                        <label for="yes">Yes</label>
+                        <input id="yes" type="radio" name="own-samoyed" value="yes">
+                        <label for="no">No</label>
+                        <input id="no" type="radio" name="own-samoyed" value="no">
+                        <label for="maybe">Maybe</label>
+                        <input id="maybe" type="radio" name="own-samoyed" value="maybe">
+                    </div>
+                    <div>
+                        <button type="submit">Send</button>
+                    </div>
+                    </form>
+             </section>
+        </main> <!-- copyright symbol -->
+        <footer> &copy;Smiling Samoyed </footer>
+    </div>
+    </body>
 </html>
