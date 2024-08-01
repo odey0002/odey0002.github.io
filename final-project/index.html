@@ -12,11 +12,12 @@
 </head>
 
 <body>
-    <div> 
+    <div class="wrapper"> 
         <div id="head"> <!-- div with logo -->
            <img src="images/logo.png" alt="star logo" class="page-logo">
         </div>
-        <nav> <!-- nav with ul and list items  -->
+
+        <nav class="navigation"> <!-- nav with ul and list items  -->
             <ul>
               <li>Home</li>
               <li>About Us</li>
@@ -25,65 +26,132 @@
               <li>Contact</li>
             </ul>
         </nav> 
-        <div> <!-- div with search icon -->
+
+        <div class="searchbar"> <!-- div with search icon -->
            <input type="search" placeholder="search">
            <i class="fa-solid fa-magnifying-glass"></i>
         </div> 
-        <div> <!-- div with image, heading, paragraph and button display -->
-          <header> <!-- you may need to include main-->
+
+        <div class="welcome"> <!-- div with image, heading, paragraph and button display -->
+          <header> 
                <h1>Welcome to Three Star Media</h1>
-          </header>
                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum tempore saepe dolor velit fugit illo ipsum molestias porro voluptatibus assumenda vitae ratione aliquid blanditiis atque unde, sequi magnam consectetur autem!</p>
-               <a href="#">Connect with us <i class="fas fa-caret-right"></i></a>
+               <button>Connect with us <i class="fas fa-caret-right"></i></button>
                <br>
                <img src="images/main-banner.jpg" alt="image of office space" class="main-banner">
+          </header>    
         </div>
-        <section> <!-- section (about us) with image and heading, paragraphs -->
+
+        <section class="about"> <!-- section (about us) with image and heading, paragraphs -->
                <img src="images/about-us.jpg" alt="relaxation area" class="about-us-image">
                <h2>About Us</h2>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eveniet, quos reiciendis mollitia facilis reprehenderit magnam unde esse consequatur commodi et omnis illo delectus odio! Fugiat, laudantium? Voluptatibus, eos voluptates.</p>
                <p>Lorem modi laboriosam sequi reprehenderit quis commodi consequatur illo beatae repellat ut nulla dolore ullam maiores quasi culpa perferendis officia, molestiae quo excepturi architecto quaerat aliquid dicta impedit. Quas, numquam?</p>
         </section>
-    </div>
-        <section> <!-- section (our services) with image with five articles and button displays -->
+
+        <section class="services"> <!-- section (our services) with image with five articles and button displays -->
             <h2>Our Services</h2>
             <article>
                 <img src="images/digital.jpg" alt="image of digital" class="digital-image">
                 <h3>Digital Transformation</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam minima corrupti iusto tempore dolorum, rem voluptates modi ex hic laborum ut nulla provident cumque tempora, placeat quaerat, doloribus reprehenderit? Iure.</p>
-                <a href="#">Digital Plans <i class="fas fa-caret-right"></i></a>
+                <button>Digital Plans <i class="fas fa-caret-right"></i></button>
             </article>
             <article>
                 <img src="images/marketing.jpg" alt="image of marketing" class="marketing-image">
                 <h3>Marketing</h3>
                 <p>Dolor quae, dolorum atque optio voluptatibus voluptate maiores nam tempore quidem magni quam quaerat voluptatum error eos, molestias quia eaque! Rem tempore natus praesentium eius quas et, maiores commodi culpa?</p>
-                <a href="#">Marketing Plans <i class="fas fa-caret-right"></i></a>
+                <button>Marketing Plans <i class="fas fa-caret-right"></i></button>
             </article>
             <article>
                 <img src="images/video.jpg" alt="image of video prod" class="videop-image">
                 <h3>Video Production</h3>
                 <p>Maxime repudiandae architecto ducimus unde illum doloremque a est consequuntur hic tempore, necessitatibus accusamus, esse ab amet aliquid ex beatae cum nobis. Voluptatem, quos! Aperiam blanditiis beatae vero vitae eum.</p>
-                <a href="#">Video Plans <i class="fas fa-caret-right"></i></a>
+                <button>Video Plans <i class="fas fa-caret-right"></i></button>
             </article>
             <article>
                 <img src="images/web.jpg" alt="image of web" class="web-image">
                 <h3>Web Development</h3>
                 <p>Enim, sequi fuga fugit nostrum laudantium asperiores doloribus voluptate architecto tenetur corrupti dolorem alias labore laborum optio illo quia impedit, et nisi. Aut doloremque dolore numquam perferendis magnam non consequuntur?</p>
-                <a href="#">Web Plans <i class="fas fa-caret-right"></i></a>
+                <button>Web Plans <i class="fas fa-caret-right"></i></button>
             </article>
             <article>
                 <img src="images/print.jpg" alt="image of print" class="print-image">
                 <h3>Print</h3>
                 <p>Ipsum, dolorum aliquam maiores laborum exercitationem voluptate architecto labore et optio iste earum recusandae a nemo vel deleniti eos sequi quidem quaerat distinctio error alias, velit iusto omnis accusamus! Eveniet.</p>
-                <a href="#">Print Plans <i class="fas fa-caret-right"></i></a>
+                <button>Print Plans <i class="fas fa-caret-right"></i></button>
             </article>
         </section>
-    
-    <!-- section (our vision) with image background and button display -->
-    <!-- section (our team) with two articles, images, headings and paragraphs -->
-    <!-- section with forms and buttons -->
-    <!-- section with heading and table -->
-    <!-- section with heading and map -->
-    <!-- Footer -->
+
+        <section class="vision"> <!-- section (our vision) with image background and button display -->
+            <h3>Our Vision</h3>
+                <img src="images/vision.jpg" alt="image of vision" class="vision-image">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam minima corrupti iusto tempore dolorum, rem voluptates modi ex hic laborum ut nulla provident cumque tempora, placeat quaerat, doloribus reprehenderit? Iure.</p>
+                <button>Learn More <i class="fas fa-caret-right"></i></button>
+        </section>
+
+        <section class="team"> <!-- section (our team) with two articles, images, headings and paragraphs -->
+            <h2>Our Team</h2>
+            <article>
+                <img src="images/john.jpg" alt="image of john" class="john-image">
+                <h3>John Doe</h3>
+                <h4>CEO and Co-owner</h4>
+                <hr>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem ea accusamus et labore eaque nemo omnis reiciendis ratione id, unde magni odio vero delectus repellat, laboriosam dolore qui ducimus quas!</p>
+            </article>
+            <article>
+                <img src="images/bob.jpg" alt="image of bob" class="bob-image">
+                <h3>Bob Rite</h3>
+                <h4>CFO and Co-owner</h4>
+                <hr>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque voluptas quia vel veritatis, sequi odit assumenda quos tempore magni adipisci, delectus repellat natus sint. Fugit eaque sunt nobis dolorum debitis!</p>
+            </article>
+        </section>
+
+        <section class="contact"> <!-- section with form and button -->
+            <h2>Contact Us</h2>
+            <h3>Send us a message</h3>
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+                <br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <section class="schedule"> <!-- section with heading and table -->
+            <h3>Hours of Operation</h3>
+            <table>
+                <tr>
+                    <td>Days</td>
+                    <td>Hours</td>
+                </tr>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>9am - 6pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday - Sunday</td>
+                    <td>Closed</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="geo"> <!-- section with heading and map -->
+            <h3>Location</h3>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.888910313926!2d-75.76007554130861!3d45.34993349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1721914869858!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+        </section>
+
+        <footer> <!-- Footer -->
+            <p>&copy; Copyright 2024 Three Star Media, 2020</p>
+            <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
+        </footer>
+    </div>
 </body>
 </html>
