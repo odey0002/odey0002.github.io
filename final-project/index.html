@@ -130,23 +130,27 @@
             </form>
         </section>
 
-        <section class="schedule"> <!-- section with heading and table -->
-            <h3>Hours of Operation</h3>
-            <table>
-                <tr>
-                    <td>Days</td>
-                    <td>Hours</td>
-                </tr>
-                <tr>
+        <div class="schedule"> <!-- div with table as no header is required -->
+            <table> <!-- updates proper table format for data organization -->
+                <caption>Hours of Operation</caption>
+                <thead>
+                  <tr>
+                    <th>Days</th>
+                    <th>Hours</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
                     <td>Monday - Friday</td>
                     <td>9am - 6pm</td>
-                </tr>
-                <tr>
+                  </tr>
+                  <tr>
                     <td>Saturday - Sunday</td>
                     <td>Closed</td>
-                </tr>
+                  </tr>
+                </tbody>
             </table>
-        </section>
+        </div>
 
         <section class="geo"> <!-- section with heading and map -->
             <h3>Location</h3>
