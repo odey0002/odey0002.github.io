@@ -28,18 +28,23 @@
         </nav> 
 
         <div class="searchbar"> <!-- div with search icon -->
-           <input type="search" placeholder="search">
-           <i class="fa-solid fa-magnifying-glass"></i>
+            <form action="search" method="get"> <!--using form tag to collect information-->
+              <label for="search"></label>
+              <input id="search" type="search" placeholder="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
         </div> 
 
         <div class="welcome"> <!-- div with image, heading, paragraph and button display -->
-          <header> 
+            <div class="wrapper"> <!-- Includes wrapper to help with transparent background -->
+              <header> 
                <h1>Welcome to Three Star Media</h1>
                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum tempore saepe dolor velit fugit illo ipsum molestias porro voluptatibus assumenda vitae ratione aliquid blanditiis atque unde, sequi magnam consectetur autem!</p>
                <button>Connect with us <i class="fas fa-caret-right"></i></button>
                <br>
                <img src="images/main-banner.jpg" alt="image of office space" class="main-banner">
-          </header>    
+              </header>
+            </div>    
         </div>
 
         <section class="about"> <!-- section (about us) with image and heading, paragraphs -->
