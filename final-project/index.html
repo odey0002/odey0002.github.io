@@ -7,17 +7,21 @@
 
     <script src="https://kit.fontawesome.com/9944818ba7.js" crossorigin="anonymous"></script>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"> <!-- linked open sans font from google font for styling of body-->
+
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/reset.css"> <!-- linked reset file to remove any inbuilt styling and put in default mode-->
 </head>
 
 <body>
-    <div class="wrapper"> 
-        <div id="head"> <!-- div with logo -->
+    <div class="wrapper-header"> 
+        <div class="logo"> <!-- div with logo -->
            <img src="images/logo.png" alt="star logo" class="page-logo">
         </div>
-
+        
         <nav class="navigation"> <!-- nav with ul and list items  -->
             <ul>
               <li>Home</li>
@@ -31,10 +35,11 @@
         <div class="searchbar"> <!-- div with search icon -->
             <form action="search" method="get"> <!--using form tag to collect information-->
               <label for="search"></label>
-              <input id="search" type="search" placeholder="search">
+              <input id="search" type="search" placeholder="Search">
               <i class="fa-solid fa-magnifying-glass"></i>
             </form>
-        </div> 
+        </div>
+    </div> 
 
         <div class="welcome"> <!-- div with image, heading, paragraph and button display -->
             <div class="wrapper"> <!-- Includes wrapper to help with transparent background -->
@@ -48,14 +53,17 @@
             </div>    
         </div>
 
-        <section class="about"> <!-- section (about us) with image and heading, paragraphs -->
+        <div class="wrapper-section">
+          <section class="about"> <!-- section tag because an header is inclusive.. section (about us) with image and heading, paragraphs -->
                <img src="images/about-us.jpg" alt="relaxation area" class="about-us-image">
                <h2>About Us</h2>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eveniet, quos reiciendis mollitia facilis reprehenderit magnam unde esse consequatur commodi et omnis illo delectus odio! Fugiat, laudantium? Voluptatibus, eos voluptates.</p>
                <p>Lorem modi laboriosam sequi reprehenderit quis commodi consequatur illo beatae repellat ut nulla dolore ullam maiores quasi culpa perferendis officia, molestiae quo excepturi architecto quaerat aliquid dicta impedit. Quas, numquam?</p>
-        </section>
+          </section>
+        </div>
 
-        <section class="services"> <!-- section (our services) with image with five articles and button displays -->
+        <div class="wrapper-services">
+          <section class="services"> <!-- section and article tag because they both have headers.. section (our services) with image, five articles and button displays -->
             <h2>Our Services</h2>
             <article>
                 <img src="images/digital.jpg" alt="image of digital" class="digital-image">
@@ -87,16 +95,20 @@
                 <p>Ipsum, dolorum aliquam maiores laborum exercitationem voluptate architecto labore et optio iste earum recusandae a nemo vel deleniti eos sequi quidem quaerat distinctio error alias, velit iusto omnis accusamus! Eveniet.</p>
                 <button>Print Plans <i class="fas fa-caret-right"></i></button>
             </article>
-        </section>
+          </section>
+        </div>
 
-        <section class="vision"> <!-- section (our vision) with image background and button display -->
+        <div class="wrapper-vision">
+          <section class="vision"> <!-- section (our vision) with image background and button display -->
             <h3>Our Vision</h3>
                 <img src="images/vision.jpg" alt="image of vision" class="vision-image">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam minima corrupti iusto tempore dolorum, rem voluptates modi ex hic laborum ut nulla provident cumque tempora, placeat quaerat, doloribus reprehenderit? Iure.</p>
                 <button>Learn More <i class="fas fa-caret-right"></i></button>
-        </section>
+          </section>
+        </div>
 
-        <section class="team"> <!-- section (our team) with two articles, images, headings and paragraphs -->
+        <div class="wrapper-team">
+          <section class="team"> <!-- section (our team) with two articles, images, headings and paragraphs -->
             <h2>Our Team</h2>
             <article>
                 <img src="images/john.jpg" alt="image of john" class="john-image">
@@ -112,9 +124,11 @@
                 <hr>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque voluptas quia vel veritatis, sequi odit assumenda quos tempore magni adipisci, delectus repellat natus sint. Fugit eaque sunt nobis dolorum debitis!</p>
             </article>
-        </section>
+          </section>
+        </div>
 
-        <section class="contact"> <!-- section with form and button -->
+        <div class="wrapper-contact">
+          <section class="contact"> <!-- section with form and button -->
             <h2>Contact Us</h2>
             <h3>Send us a message</h3>
             <form>
@@ -129,9 +143,10 @@
                 <br>
                 <button type="submit">Send</button>
             </form>
-        </section>
+          </section>
+        </div>
 
-        <div class="schedule"> <!-- div with table as no header is required -->
+        <div class="schedule"> <!-- div with table as no wrapper is required -->
             <table> <!-- updates proper table format for data organization -->
                 <caption>Hours of Operation</caption>
                 <thead>
@@ -162,6 +177,5 @@
             <p>&copy; Copyright 2024 Three Star Media, 2020</p>
             <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
         </footer>
-    </div>
 </body>
 </html>
