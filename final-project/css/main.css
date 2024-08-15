@@ -241,31 +241,31 @@ body {
 @media (min-width: 760px) {
     .navigation ul {
         flex-direction: row;
-    }
+}
 
     .searchbar {
         flex-direction: row;
-    }
+}
 
     .first-header h1 {
         font-size: 80px;
-    }
+}
 
     .first-header p {
         font-size: 20px;
-    }
+}
 
     .about h2 {
         font-size: 30px;
-    }
+}
 
     .services h2 {
         font-size: 36px;
-    }
+}
 
     .services h3 {
         font-size: 32px;
-    }
+}
 
     .wrapper-section,
     .wrapper-services,
@@ -273,27 +273,28 @@ body {
     .wrapper-team {
         max-width: 100%;
         margin: 0 auto;
-    }
+}
 
     .about-us-image,
     .services .digital-image,
     .vision img,
     .team img {
         width: 100%;
-    }
+}
 
     .inner-wrapper {
         padding: 40px;
-    }
+}
 
     .services {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-    }
+}
 
     .services article {
         flex: 1 1 48%;
         margin: 10px;
-    }
+}
+
 }
