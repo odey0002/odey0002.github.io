@@ -9,20 +9,19 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"> <!-- linked open sans font from google font for styling of body-->
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/reset.css"> <!-- linked reset file to remove any inbuilt styling and put in default mode-->
+    <link rel="stylesheet" href="css/reset.css">
 </head>
 
 <body>
     <div class="wrapper-header"> 
-        <div class="logo"> <!-- div with logo -->
+        <div class="logo">
            <img src="images/logo.png" alt="star logo" class="page-logo">
         </div>
         
-        <nav class="navigation"> <!-- nav with ul and list items  -->
+        <nav class="navigation">
             <ul>
               <li>Home</li>
               <li>About Us</li>
@@ -32,29 +31,29 @@
             </ul>
         </nav> 
 
-        <div class="searchbar"> <!-- div with search icon -->
-            <form action="search" method="get"> <!--using form tag to collect information-->
-              <label for="search"></label>
+        <div class="searchbar">
+            <form action="search" method="get" class="formdisplay">
+
               <input id="search" type="search" placeholder="Search">
               <i class="fa-solid fa-magnifying-glass"></i>
             </form>
         </div>
     </div> 
-
-        <div class="welcome"> <!-- div with image, heading, paragraph and button display -->
-            <div class="wrapper"> <!-- Includes wrapper to help with transparent background -->
-              <header> 
-               <h1>Welcome to Three Star Media</h1>
-               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum tempore saepe dolor velit fugit illo ipsum molestias porro voluptatibus assumenda vitae ratione aliquid blanditiis atque unde, sequi magnam consectetur autem!</p>
-               <button>Connect with us <i class="fas fa-caret-right"></i></button>
-               <br>
-               <img src="images/main-banner.jpg" alt="image of office space" class="main-banner">
-              </header>
+    <div class="welcome">
+            <div class="inner-wrapper">
+                <div class="first-header">
+                    <header> 
+                    <h1>Welcome to Three Star Media</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum tempore saepe dolor velit fugit illo ipsum molestias porro voluptatibus assumenda vitae ratione aliquid blanditiis atque unde, sequi magnam consectetur autem!</p>
+                    <button>Connect with us <i class="fas fa-caret-right"></i></button>
+                    <br>
+                    </header>
+                </div>
             </div>    
         </div>
 
-        <div class="wrapper-section">
-          <section class="about"> <!-- section tag because an header is inclusive.. section (about us) with image and heading, paragraphs -->
+    <div class="wrapper-section">
+          <section class="about">
                <img src="images/about-us.jpg" alt="relaxation area" class="about-us-image">
                <h2>About Us</h2>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, eveniet, quos reiciendis mollitia facilis reprehenderit magnam unde esse consequatur commodi et omnis illo delectus odio! Fugiat, laudantium? Voluptatibus, eos voluptates.</p>
@@ -62,8 +61,8 @@
           </section>
         </div>
 
-        <div class="wrapper-services">
-          <section class="services"> <!-- section and article tag because they both have headers.. section (our services) with image, five articles and button displays -->
+    <div class="wrapper-services">
+          <section class="services">
             <h2>Our Services</h2>
             <article>
                 <img src="images/digital.jpg" alt="image of digital" class="digital-image">
@@ -72,25 +71,25 @@
                 <button>Digital Plans <i class="fas fa-caret-right"></i></button>
             </article>
             <article>
-                <img src="images/marketing.jpg" alt="image of marketing" class="marketing-image">
+                <img src="images/marketing.jpg" alt="image of marketing" class="digital-image">
                 <h3>Marketing</h3>
                 <p>Dolor quae, dolorum atque optio voluptatibus voluptate maiores nam tempore quidem magni quam quaerat voluptatum error eos, molestias quia eaque! Rem tempore natus praesentium eius quas et, maiores commodi culpa?</p>
                 <button>Marketing Plans <i class="fas fa-caret-right"></i></button>
             </article>
             <article>
-                <img src="images/video.jpg" alt="image of video prod" class="videop-image">
+                <img src="images/video.jpg" alt="image of video prod" class="digital-image">
                 <h3>Video Production</h3>
                 <p>Maxime repudiandae architecto ducimus unde illum doloremque a est consequuntur hic tempore, necessitatibus accusamus, esse ab amet aliquid ex beatae cum nobis. Voluptatem, quos! Aperiam blanditiis beatae vero vitae eum.</p>
                 <button>Video Plans <i class="fas fa-caret-right"></i></button>
             </article>
             <article>
-                <img src="images/web.jpg" alt="image of web" class="web-image">
+                <img src="images/web.jpg" alt="image of web" class="digital-image">
                 <h3>Web Development</h3>
                 <p>Enim, sequi fuga fugit nostrum laudantium asperiores doloribus voluptate architecto tenetur corrupti dolorem alias labore laborum optio illo quia impedit, et nisi. Aut doloremque dolore numquam perferendis magnam non consequuntur?</p>
                 <button>Web Plans <i class="fas fa-caret-right"></i></button>
             </article>
             <article>
-                <img src="images/print.jpg" alt="image of print" class="print-image">
+                <img src="images/print.jpg" alt="image of print" class="digital-image">
                 <h3>Print</h3>
                 <p>Ipsum, dolorum aliquam maiores laborum exercitationem voluptate architecto labore et optio iste earum recusandae a nemo vel deleniti eos sequi quidem quaerat distinctio error alias, velit iusto omnis accusamus! Eveniet.</p>
                 <button>Print Plans <i class="fas fa-caret-right"></i></button>
@@ -98,17 +97,18 @@
           </section>
         </div>
 
-        <div class="wrapper-vision">
-          <section class="vision"> <!-- section (our vision) with image background and button display -->
+    <div class="wrapper-vision">
+        <img src="images/vision.jpg" alt="image of vision" class="vision-image">
+          <section class="vision">
+
             <h3>Our Vision</h3>
-                <img src="images/vision.jpg" alt="image of vision" class="vision-image">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam minima corrupti iusto tempore dolorum, rem voluptates modi ex hic laborum ut nulla provident cumque tempora, placeat quaerat, doloribus reprehenderit? Iure.</p>
                 <button>Learn More <i class="fas fa-caret-right"></i></button>
           </section>
         </div>
 
-        <div class="wrapper-team">
-          <section class="team"> <!-- section (our team) with two articles, images, headings and paragraphs -->
+    <div class="wrapper-team">
+          <section class="team">
             <h2>Our Team</h2>
             <article>
                 <img src="images/john.jpg" alt="image of john" class="john-image">
@@ -127,8 +127,8 @@
           </section>
         </div>
 
-        <div class="wrapper-contact">
-          <section class="contact"> <!-- section with form and button -->
+    <div class="wrapper-contact">
+          <section class="contact">
             <h2>Contact Us</h2>
             <h3>Send us a message</h3>
             <form>
@@ -146,8 +146,8 @@
           </section>
         </div>
 
-        <div class="schedule"> <!-- div with table as no wrapper is required -->
-            <table> <!-- updates proper table format for data organization -->
+    <div class="schedule">
+            <table>
                 <caption>Hours of Operation</caption>
                 <thead>
                   <tr>
@@ -168,12 +168,12 @@
             </table>
         </div>
 
-        <section class="geo"> <!-- section with heading and map -->
+    <section class="geo">
             <h3>Location</h3>
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5607.888910313926!2d-75.76007554130861!3d45.34993349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1721914869858!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
         </section>
 
-        <footer> <!-- Footer -->
+        <footer>
             <p>&copy; Copyright 2024 Three Star Media, 2020</p>
             <p>All images are taken from <a href="https://unsplash.com/">Unsplash</a></p>
         </footer>
