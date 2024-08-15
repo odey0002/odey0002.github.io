@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #fff;
+}
+
+.wrapper-header {
+    width: 1200px;
+    background-color: #222;
+    margin: 0 auto; 
+    padding: 20px; /* Optional padding for spacing */
+}
+
+/* Inner Wrapper with #c78c06 Background */
+.logo {
+    background-color: #c78c06; 
+    width: 1150px;
+    margin: 0 auto;
+    height: 400px;
+    justify-content: center;
+    padding: 20px; 
+}
+
+/* Navigation styling using Flexbox */
+.navigation li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #c78c06;
+    padding: 20px;
+}
+
+.searchbar { 
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.searchbar input{ 
+    width: 1150px;
+    padding: 7px;
+}
+
+.searchbar i {
+    color: #c78c06;
+    border: 2px solid #c78c06;
+    padding: 7px;
+    height: 15px;
+    
+}
