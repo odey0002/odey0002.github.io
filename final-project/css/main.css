@@ -3,52 +3,236 @@ html {
 }
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .wrapper-header {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     background-color: #222;
-    margin: 0 auto; 
-    padding: 20px; /* Optional padding for spacing */
+    margin: 0 auto;
+   
 }
 
 /* Inner Wrapper with #c78c06 Background */
 .logo {
     background-color: #c78c06; 
-    width: 1150px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 1150px;
     height: 400px;
-    justify-content: center;
-    padding: 20px; 
+    margin: 0px auto;
+    padding: 20px;
+    
 }
 
 /* Navigation styling using Flexbox */
-.navigation li{
-    list-style: none;
+.navigation ul {
     display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
     flex-direction: column;
-    align-items: center;
+}
+
+.navigation li {
+    list-style: none;
     color: #c78c06;
     padding: 20px;
+    text-align: center;
 }
 
+/* Search bar styling */
 .searchbar { 
+    
+    margin: 20px auto;
     display: flex;
-    margin-left: auto;
-    justify-content: center;
+    flex-direction: column;
 }
 
-.searchbar input{ 
-    width: 1150px;
-    padding: 7px;
+.searchbar input { 
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #c78c06;
+    border-radius: 5px;
 }
 
 .searchbar i {
     color: #c78c06;
     border: 2px solid #c78c06;
     padding: 7px;
-    height: 15px;
+    margin-left: -30px;
+    height: 30px;    
+    display: flex;
+    align-items: center;
+}
+
+.welcome {
+    width: 100%;
+    height: 100vh;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-image: url('../images/main-banner.jpg');
+}
+
+/* styling for Inner Transparent Wrapper */
+.inner-wrapper {
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    padding: 20px;
+   
+    text-align: left;
+    height: 75%;
+}
+
+.first-header h1 {
+    color: rgb(255, 255, 255) ;
+    font-size: 100px;
+}
+
+.first-header p{
+    color: #fff;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.wrapper-section {
+    width: 1200px;
+    height: 1000px;
+    max-width: 1200px;
+    display: flex;
+   
+    background-color: #ffe6ac;
+    align-items: center;
+}
+
+.about-us-image{
+    width: 1150px;
+
     
+}
+
+.about .about-us-image {
+    padding: 20px;
+}
+
+.about {
+    background-color:#ffe6ac;
+    text-align: center;
+}
+
+.about p {
+    text-align: left;
+    padding: 20px;
+}
+
+.about h2
+{
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+
+.wrapper-services {
+    width: 1200px;
+    background-color: fff;
+    display: flex;
+}
+
+.services{
+    margin: 20px;
+    background-color:#ffe6ac;
+}
+
+.services h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.services .digital-image{
+    width: 1160px;
+}
+
+.services h3 {
+    color: 000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+.services p {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.services button{
+    background-color: #222;
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.wrapper-vision {
+        width: 100%;
+        max-width: 1200px;
+        position: relative;
+        overflow: hidden; /* Ensure the image is clipped to the div */
+        margin: 20px 0;
+    }
+    
+
+.vision img {
+    height: 100px;
+    width: 1200px;
+}
+
+.wrapper-team {
+    width: 1200px;
+}
+
+.team img {
+    width: 1150px;
+}
+.team h2 {
+    color: 000;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.team h3 {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.team h4 {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.team hr {
+    margin-left:10px ;
+    margin-right: 10px;
+}
+
+.team p {
+    padding: 0px;
 }
